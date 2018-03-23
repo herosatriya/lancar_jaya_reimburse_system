@@ -1,38 +1,10 @@
-{
-<<<<<<< HEAD
-  "name": "lancar_jaya_reimburse_system",
+{ "name": "lancar_jaya_reimburse_system",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.16.3",
     "mysql": "^2.15.0",
-    "nedb": "^1.8.0",
-    "spinner": "^0.3.4"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/herosatriya/lancar_jaya_reimburse_system.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/herosatriya/lancar_jaya_reimburse_system/issues"
-  },
-  "homepage": "https://github.com/herosatriya/lancar_jaya_reimburse_system#readme"
-=======
-  "name": "lancar-jaya-reimburse-system",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
-  "dependencies": {
+    "spinner": "^0.3.4",
     "cookie-parser": "~1.4.3",
     "cors": "^2.8.4",
     "debug": "~2.6.9",
@@ -41,6 +13,19 @@
     "jade": "~1.11.0",
     "morgan": "~1.9.0",
     "nedb": "^1.8.0"
-  }
->>>>>>> b17820bcf6c8541c54e94f02781db8ff2260bc6d
-}
+  },
+"devDependencies": {},
+"scripts": {
+  "start": "node ./bin/www"
+},
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/herosatriya/lancar_jaya_reimburse_system.git"
+},
+"keywords": [],
+"author": "",
+"license": "ISC",
+"bugs": {
+  "url": "https://github.com/herosatriya/lancar_jaya_reimburse_system/issues"
+},
+"homepage": "https://github.com/herosatriya/lancar_jaya_reimburse_system#readme"}
