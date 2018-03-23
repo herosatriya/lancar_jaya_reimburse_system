@@ -2,6 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/admin">Project Admin</router-link> |
+       <router-link to="/bendaharaadmin">Bendahara PA</router-link> |
       <router-link to="/bendahara">Bendahara</router-link> |
       <router-link to="/master">Master</router-link>
     </div>

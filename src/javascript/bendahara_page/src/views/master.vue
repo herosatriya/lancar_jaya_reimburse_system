@@ -15,8 +15,8 @@ Balance   :
 <table class="table table-bordered table-dark">
 <tbody>
 <tr>
-<td>No.</td>
-<td>Request</td>
+<td>No Ref</td>
+<td>Amount Request</td>
 <td>Date Request</td>
 <td>Remark</td>
 <td>Status</td>
@@ -96,6 +96,15 @@ Balance   :
                 )
 
            },
+
+            tetap(balance){
+                const url = 'http://localhost:3000/bendahara'
+                const body = {no_bal: balance.no_bal, flag_new: "1"}
+                axios.put(url, body).then(
+                    this.fetchDataBalance()
+                )
+           },
+
             
             fetchDataBalance(){
                 const url = 'http://localhost:3000/bendahara'

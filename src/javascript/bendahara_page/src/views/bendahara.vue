@@ -15,8 +15,8 @@ Balance   :
 <table class="table table-bordered table-dark">
 <tbody>
         <tr>
-          <td>No</td>
-          <td>Request</td>
+          <td>No Ref</td>
+          <td>Amount Request</td>
           <td>Date Req</td>
           <td>Remark</td>
           <td>Process</td>
@@ -39,8 +39,8 @@ Balance   :
 <table class="table table-bordered table-dark">
 <tbody>
 <tr>
-<td>No.</td>
-<td>Request</td>
+<td>No Ref</td>
+<td>Amount Request</td>
 <td>Date Request</td>
 <td>Remark</td>
 <td>Status</td>
@@ -61,9 +61,6 @@ Balance   :
 </tr>
 </tbody>
 </table>
-
-
-
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
@@ -97,7 +94,8 @@ Balance   :
                     console.log(bal)
                     if (bal.remark == '+') {
                         saldo = parseInt(saldo) + parseInt(bal.balance_req)
-                    }                
+                    }
+                    
                     else {
                         saldo = parseInt(saldo) - parseInt(bal.balance_req)
                     }

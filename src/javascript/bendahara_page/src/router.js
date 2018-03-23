@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Admin from './views/admin.vue'
 import Bendahara from './views/bendahara.vue'
+import BendaharaAdmin from './views/bendaharaadmin.vue'
 import Master from './views/master.vue'
 
 Vue.use(Router)
@@ -34,6 +35,12 @@ export default new Router({
       path: '/admin',
       name: 'admin',
       component: Admin
+    },
+    {
+      path: '/bendaharaadmin',
+      name: 'bendaharaadmin',
+      component: BendaharaAdmin
     }
+    
   ]
 })

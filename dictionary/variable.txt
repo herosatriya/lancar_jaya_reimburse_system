@@ -1,0 +1,36 @@
+--login--
+username
+password
+
+-DB table : data.csv
+	-nama PA pemohon : PA_name
+	-tanggal : date
+	-nama pegawai pemohon : emp_name
+	-nominal : ammount
+	-keterangan : remark
+	-flag : 1. belum di receive reza (send)
+			2. received
+			3. approved
+			0. reimbursed
+
+--PA--
+-textfield :
+	-menyesuaikan DB table (data.csv)
+	
+-button : 
+	-submit : submit
+	-cancel : cancel
+	-edit : edit
+
+--Bendahara--
+-button :
+	-data reimburse diterima : received
+	-data reimburse sudah diganti uangnya : reimbursed
+	-request duit plus ke pak david : request_plus
+	-request duit minus ke pak david : request_minus
+-textfield :
+	-nominal yang direquest ke pak david : ammount_request
+
+--Admin--
+-button :
+	-approved request uang dari mas reza : approved_req
