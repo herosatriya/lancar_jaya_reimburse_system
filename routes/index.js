@@ -7,22 +7,10 @@ const DB = new DataStore({
   autoload: true
 })
 
-router.get('/reimburse', function (req, res, next) {
-
-  const q = {
-    $or: [
-      { PA_name: new RegExp(req.query.q || '', 'i')},
-      { date: new RegExp(req.query.q || '', 'i')},
-      { emp_name: new RegExp(req.query.q || '', 'i')},
-      { ammount: new RegExp(req.query.q || '', 'i')},
-      { remark: new RegExp(req.query.q || '', 'i')},
-      { flag: new RegExp(req.query.q || '', 'i')},
-      
-    ]
-  }
-  DB.find( q, (err, data) => {
-  res.json(data)
-  })
+router.get('/reimburse', function(req, res, next){
+  DB.find({},(err,data) =>{
+    res.json(data)
+})
 })
 
 router.post('/reimburse', function (req, res, next) {    //post bisa mengirimkan data lebih banyak dibanding get, ada body
