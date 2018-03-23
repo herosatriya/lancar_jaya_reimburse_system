@@ -1,0 +1,27 @@
+{
+  "name": "lancar_jaya_reimburse_system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.15.0",
+    "nedb": "^1.8.0",
+    "spinner": "^0.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herosatriya/lancar_jaya_reimburse_system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herosatriya/lancar_jaya_reimburse_system/issues"
+  },
+  "homepage": "https://github.com/herosatriya/lancar_jaya_reimburse_system#readme"
+}
